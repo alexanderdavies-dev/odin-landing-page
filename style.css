@@ -24,15 +24,19 @@ a {
 .header {
     background-color: #1F2937;
     color: #F9FAF8;
-    font-size: 24px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 16px 150px;
 }
 
-/* style the navigation */
+/*style the logo */
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+}
 
+/* style the navigation */
 nav ul {
     list-style: none;
     display: flex;
@@ -43,4 +47,7 @@ nav ul {
 nav a {
     color: #F9FAF8;
 }
+
+/* style the hero */
+
 
