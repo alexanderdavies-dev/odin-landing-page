@@ -99,3 +99,29 @@ nav a {
     font-size: 16px;
     font-weight: 700;
 }
+
+/* style info section */
+.info {
+    display: flex;
+    justify-content: center;
+    padding: 125px 200px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-title {
+    display: flex;
+}
+
+.info-text {
+    display: flex;
+}
+
+.info-container {
+    display: flex;
+}
+
+.info img {
+    width: 100px;
+    height: 100px;
+}
