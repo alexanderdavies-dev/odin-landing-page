@@ -137,3 +137,20 @@ nav a {
     width: 150px;
     height: 150px;
 }
+
+/* style quote section */
+.quote {
+    display: flex;
+    justify-content: center;
+    padding: 59px 200px;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    text-align: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
