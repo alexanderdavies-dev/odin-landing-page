@@ -122,6 +122,9 @@ nav a {
 .info-title {
     display: flex;
     align-items: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
 }
 
 .info-text {
@@ -173,4 +176,48 @@ nav a {
     justify-content: center;
     align-items: center;
     padding: 59px 200px;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    width: 100%;
+}
+
+.cta-text {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.cta-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cta-subtitle {
+    font-size: 16px;
+}
+
+.cta-button{ 
+    margin-left: 50px;
+}
+.cta-button button{
+    background-color: #3882f6;
+    border:2px solid #E5E7EB;
+    color: #E5E7EB;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* style the footer */
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    color:#F9FAF8;
+    padding: 40px 200px;
 }
